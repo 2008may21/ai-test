@@ -10,6 +10,6 @@ def find_unused(supernet, used_subnets):
     return largest_unused_subnets
 
 # Example usage:
-supernet = '192.168.0.0/16'
-used_subnets = ['192.168.1.0/24', '192.168.2.0/24']
-print(find_unused(supernet, used_subnets))
+# supernet = '192.168.0.0/16'
+# used_subnets = ['192.168.1.0/24', '192.168.2.0/24']
+# print(find_unused(supernet, used_subnets))
